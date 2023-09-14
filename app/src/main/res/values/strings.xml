@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculator.kt</string>
+    <string name="app_name">Calculator</string>
     <string name="cal_text">0</string>
     <string name="_7">7</string>
     <string name="_8">8</string>
