@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
         return if (value.startsWith("-")){
             false
         } else{
-            value.contains("/")
+                      value.contains("/")
                     ||value.contains("*")
                     ||value.contains("+")
                     ||value.contains("-")

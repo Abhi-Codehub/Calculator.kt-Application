@@ -5,23 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#000000">
 
     <TextView
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#333333"
+        android:background="#FFFFFF"
         android:padding="10dp"
         android:textSize="48sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:gravity="end|bottom"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:color="#323232">
 
         <Button
             android:id="@+id/btnSeven"
@@ -32,6 +34,9 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
+
             />
         <Button
             android:id="@+id/btnEight"
@@ -42,6 +47,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnNine"
@@ -52,6 +59,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnDivide"
@@ -59,9 +68,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/Divide"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:layout_margin="1.5dp"
             android:onClick="onOperator"
-            android:backgroundTint ="#85db70"
             android:textSize="25sp"
 
             />
@@ -83,6 +93,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnFive"
@@ -93,6 +105,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnSix"
@@ -103,6 +117,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnMultiply"
@@ -112,7 +128,8 @@
             android:text="@string/Multiply"
             android:layout_margin="1.5dp"
             android:onClick="onOperator"
-            android:backgroundTint ="#85db70"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:textSize="25sp"
             />
 
@@ -133,6 +150,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnTwo"
@@ -143,6 +162,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnThree"
@@ -153,6 +174,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnSubtract"
@@ -162,7 +185,8 @@
             android:text="@string/Subtract"
             android:layout_margin="1.5dp"
             android:onClick="onOperator"
-            android:backgroundTint ="#85db70"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:textSize="35sp"
             />
 
@@ -183,6 +207,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnDot"
@@ -193,6 +219,8 @@
             android:layout_margin="1.5dp"
             android:onClick="onDecimalPoint"
             android:textSize="35sp"
+            android:backgroundTint="#323232"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/btnCLR"
@@ -202,7 +230,8 @@
             android:text="@string/clr"
             android:layout_margin="1.5dp"
             android:onClick="onClear"
-            android:backgroundTint ="#E6676B"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:textSize="20sp"
             />
         <Button
@@ -213,7 +242,8 @@
             android:text="+"
             android:layout_margin="1.5dp"
             android:onClick="onOperator"
-            android:backgroundTint ="#85db70"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:textSize="25sp"
             />
 
@@ -227,13 +257,14 @@
 
         <Button
             android:id="@+id/btnEquals"
-            android:backgroundTint ="#87CEEB"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:text="@string/Equals"
             android:layout_margin="1.5dp"
             android:onClick="onEqual"
+            android:textColor="@color/white"
+            android:backgroundTint ="#fe9500"
             android:textSize="35sp"
             />
 
